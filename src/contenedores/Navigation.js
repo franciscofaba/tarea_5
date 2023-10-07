@@ -1,6 +1,5 @@
-
-import './Navstyle.css';
-
+import './Navstyle.css'
+import icono from './fotos/660376.png';
 function Navbar() {
     return (
       <header>
@@ -9,7 +8,7 @@ function Navbar() {
                       <a href="" class="logo">Grupo InnovaTech</a>
                       <input type="checkbox" id="menu"/>
                       <label for="menu">
-                          <img src="images/660376.png" class="menu-icono" alt=""></img>
+                          <img src={icono} class="menu-icono" alt=""></img>
                       </label>
                       <nav class="navbar">
                           

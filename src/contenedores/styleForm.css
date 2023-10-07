@@ -3,6 +3,8 @@
 
 }
 
+.contenedoor
+
 .cont{
     display: flex;
     flex-direction: column;
@@ -14,8 +16,7 @@
     height: 500px;
     padding-top:40px;
     border-radius: 5px;
-    margin:10px;
-    margin-right: 50px;
+    margin: 20px;
 }
 
 
@@ -31,10 +32,10 @@ input {
 option{
     color: #181b21;
 }
-.button{
+.buttons{
     width:100%;
     background: none;
-    border: 2px solid #ae0c0c;
+    border: 2px solid #e2bd36d5;
     outline: none;
     color: #f7f7ff;
     margin-bottom:30px;

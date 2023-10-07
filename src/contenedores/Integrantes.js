@@ -1,34 +1,29 @@
-import './intstyle.css'
+
 import jova from './fotos/jova.png';
 import yo from './fotos/yo.jpeg';
+import './intstyle.css'
 function Integrantes() {
     return(
-    <div >
-        <section class="contentleft shadow">
-                <h2>INTEGRANTES</h2>
-                <div class="location">
-                    <div class="i2">
-                        
-                            <div class="image-container">
-                                <img src={jova}class="inline-image"/>
-                                <div class='textos'>
-                                    <p>Jovanka Espinoza Cajas</p>
-                                    <p>jovespinoza@alumnos.uai.cl</p>
-                                </div>
-                                <a class="button" href="jovanka/new_j.html">sobre mi</a>
-                            </div>
-                            <div class="image-container">
-                                <img src={yo} alt="Imagen 2" class="inline-image"/>
-                                <div class='textos'>
-                                    <p>Francisco Faba</p>
-                                    <p>ffba@alumnos.uai.cl</p>
-                                </div>
-                                <a class="button" href="francisco/Francisco.html">sobre mi</a>
-                            </div>                      
-                    </div>
-                </div>
+    <div class="h2">
+        <h2>INTEGRANTES</h2>
+        <section class="contenedor">
+                    
+                
+            <div class="contenedor-galeria">
+                <img src= {jova} class="foto" alt="Imagen1" ></img>
+                <p class="element" >Jovanka Espinoza Cajas</p>
+                <p class="element">jovespinoza@alumnos.uai.cl</p>
+                <a class="button" href="jovanka/new_j.html">sobre mi</a>
+            </div>
+            <div class="contenedor-galeria">
+                <img src= {yo} class="foto" alt="Imagen1" ></img>
+                <p class="element">Francisco Faba</p>
+                <p class="element">ffba@alumnos.uai.cl</p>
+                <a class="button"  href="francisco/Francisco.html">sobre mi</a>
+            </div>
         </section>
     </div>
+
     );
 
 }
